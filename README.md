@@ -3,7 +3,7 @@
 
 ## Preparation
 
-Download [model.pth](https://drive.google.com/file/d/1R3ni1BmT0EDvVRgv3l0-np_wMgif3Hc0/view?usp=sharing) from Google Drive, and extract the downloaded files into ~/checkpoint/.
+Download [model.pth](https://drive.google.com/file/d/1R3ni1BmT0EDvVRgv3l0-np_wMgif3Hc0/view?usp=sharing) from Google Drive, and extract the downloaded file into ~/checkpoint/.
 
 ## Evaluation
 ```

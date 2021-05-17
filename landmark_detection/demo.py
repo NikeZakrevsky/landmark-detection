@@ -19,6 +19,9 @@ if __name__ == "__main__":
     preprocessed_data = landmark_detector.preprocess_image(image, box)
     landmarks = landmark_detector.predict(preprocessed_data)
 
+    if landmarks['error_message']:
+        raise Exception(landmarks['error_message'])
+    
     for point in landmarks['landmarks']:
         face_image_orig = cv2.circle(image, (int(point[0]), int(point[1])), 3, (255, 0, 0), 1)
 
